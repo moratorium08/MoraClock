@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D8D0A9D17C98DDD004416B6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D8D0A9C17C98DDD004416B6 /* Cocoa.framework */; };
+		5D8D0AA717C98DDD004416B6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5D8D0AA517C98DDD004416B6 /* InfoPlist.strings */; };
+		5D8D0AA917C98DDD004416B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D8D0AA817C98DDD004416B6 /* main.m */; };
+		5D8D0AAD17C98DDD004416B6 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 5D8D0AAB17C98DDD004416B6 /* Credits.rtf */; };
+		5D8D0AB017C98DDD004416B6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D8D0AAF17C98DDD004416B6 /* AppDelegate.m */; };
+		5D8D0AB317C98DDD004416B6 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D8D0AB117C98DDD004416B6 /* MainMenu.xib */; };
+		5D8D0ABB17C98DDD004416B6 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D8D0ABA17C98DDD004416B6 /* SenTestingKit.framework */; };
+		5D8D0ABC17C98DDD004416B6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D8D0A9C17C98DDD004416B6 /* Cocoa.framework */; };
+		5D8D0AC417C98DDD004416B6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5D8D0AC217C98DDD004416B6 /* InfoPlist.strings */; };
+		5D8D0AC717C98DDD004416B6 /* moraClockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D8D0AC617C98DDD004416B6 /* moraClockTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5D8D0ABD17C98DDD004416B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D8D0A9117C98DDD004416B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D8D0A9817C98DDD004416B6;
+			remoteInfo = moraClock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5D8D0A9917C98DDD004416B6 /* moraClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = moraClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D8D0A9C17C98DDD004416B6 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		5D8D0A9F17C98DDD004416B6 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		5D8D0AA017C98DDD004416B6 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		5D8D0AA117C98DDD004416B6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5D8D0AA417C98DDD004416B6 /* moraClock-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "moraClock-Info.plist"; sourceTree = "<group>"; };
+		5D8D0AA617C98DDD004416B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5D8D0AA817C98DDD004416B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5D8D0AAA17C98DDD004416B6 /* moraClock-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "moraClock-Prefix.pch"; sourceTree = "<group>"; };
+		5D8D0AAC17C98DDD004416B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		5D8D0AAE17C98DDD004416B6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5D8D0AAF17C98DDD004416B6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5D8D0AB217C98DDD004416B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		5D8D0AB917C98DDD004416B6 /* moraClockTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = moraClockTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D8D0ABA17C98DDD004416B6 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		5D8D0AC117C98DDD004416B6 /* moraClockTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "moraClockTests-Info.plist"; sourceTree = "<group>"; };
+		5D8D0AC317C98DDD004416B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5D8D0AC517C98DDD004416B6 /* moraClockTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = moraClockTests.h; sourceTree = "<group>"; };
+		5D8D0AC617C98DDD004416B6 /* moraClockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = moraClockTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D8D0A9617C98DDD004416B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D8D0A9D17C98DDD004416B6 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D8D0AB517C98DDD004416B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D8D0ABB17C98DDD004416B6 /* SenTestingKit.framework in Frameworks */,
+				5D8D0ABC17C98DDD004416B6 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D8D0A9017C98DDD004416B6 = {
+			isa = PBXGroup;
+			children = (
+				5D8D0AA217C98DDD004416B6 /* moraClock */,
+				5D8D0ABF17C98DDD004416B6 /* moraClockTests */,
+				5D8D0A9B17C98DDD004416B6 /* Frameworks */,
+				5D8D0A9A17C98DDD004416B6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5D8D0A9A17C98DDD004416B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D8D0A9917C98DDD004416B6 /* moraClock.app */,
+				5D8D0AB917C98DDD004416B6 /* moraClockTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D8D0A9B17C98DDD004416B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D8D0A9C17C98DDD004416B6 /* Cocoa.framework */,
+				5D8D0ABA17C98DDD004416B6 /* SenTestingKit.framework */,
+				5D8D0A9E17C98DDD004416B6 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5D8D0A9E17C98DDD004416B6 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D8D0A9F17C98DDD004416B6 /* AppKit.framework */,
+				5D8D0AA017C98DDD004416B6 /* CoreData.framework */,
+				5D8D0AA117C98DDD004416B6 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		5D8D0AA217C98DDD004416B6 /* moraClock */ = {
+			isa = PBXGroup;
+			children = (
+				5D8D0AAE17C98DDD004416B6 /* AppDelegate.h */,
+				5D8D0AAF17C98DDD004416B6 /* AppDelegate.m */,
+				5D8D0AB117C98DDD004416B6 /* MainMenu.xib */,
+				5D8D0AA317C98DDD004416B6 /* Supporting Files */,
+			);
+			path = moraClock;
+			sourceTree = "<group>";
+		};
+		5D8D0AA317C98DDD004416B6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5D8D0AA417C98DDD004416B6 /* moraClock-Info.plist */,
+				5D8D0AA517C98DDD004416B6 /* InfoPlist.strings */,
+				5D8D0AA817C98DDD004416B6 /* main.m */,
+				5D8D0AAA17C98DDD004416B6 /* moraClock-Prefix.pch */,
+				5D8D0AAB17C98DDD004416B6 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5D8D0ABF17C98DDD004416B6 /* moraClockTests */ = {
+			isa = PBXGroup;
+			children = (
+				5D8D0AC517C98DDD004416B6 /* moraClockTests.h */,
+				5D8D0AC617C98DDD004416B6 /* moraClockTests.m */,
+				5D8D0AC017C98DDD004416B6 /* Supporting Files */,
+			);
+			path = moraClockTests;
+			sourceTree = "<group>";
+		};
+		5D8D0AC017C98DDD004416B6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5D8D0AC117C98DDD004416B6 /* moraClockTests-Info.plist */,
+				5D8D0AC217C98DDD004416B6 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D8D0A9817C98DDD004416B6 /* moraClock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D8D0ACA17C98DDD004416B6 /* Build configuration list for PBXNativeTarget "moraClock" */;
+			buildPhases = (
+				5D8D0A9517C98DDD004416B6 /* Sources */,
+				5D8D0A9617C98DDD004416B6 /* Frameworks */,
+				5D8D0A9717C98DDD004416B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = moraClock;
+			productName = moraClock;
+			productReference = 5D8D0A9917C98DDD004416B6 /* moraClock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5D8D0AB817C98DDD004416B6 /* moraClockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D8D0ACD17C98DDD004416B6 /* Build configuration list for PBXNativeTarget "moraClockTests" */;
+			buildPhases = (
+				5D8D0AB417C98DDD004416B6 /* Sources */,
+				5D8D0AB517C98DDD004416B6 /* Frameworks */,
+				5D8D0AB617C98DDD004416B6 /* Resources */,
+				5D8D0AB717C98DDD004416B6 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D8D0ABE17C98DDD004416B6 /* PBXTargetDependency */,
+			);
+			name = moraClockTests;
+			productName = moraClockTests;
+			productReference = 5D8D0AB917C98DDD004416B6 /* moraClockTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D8D0A9117C98DDD004416B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "桂 宏行";
+			};
+			buildConfigurationList = 5D8D0A9417C98DDD004416B6 /* Build configuration list for PBXProject "moraClock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5D8D0A9017C98DDD004416B6;
+			productRefGroup = 5D8D0A9A17C98DDD004416B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D8D0A9817C98DDD004416B6 /* moraClock */,
+				5D8D0AB817C98DDD004416B6 /* moraClockTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D8D0A9717C98DDD004416B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D8D0AA717C98DDD004416B6 /* InfoPlist.strings in Resources */,
+				5D8D0AAD17C98DDD004416B6 /* Credits.rtf in Resources */,
+				5D8D0AB317C98DDD004416B6 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D8D0AB617C98DDD004416B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D8D0AC417C98DDD004416B6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5D8D0AB717C98DDD004416B6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D8D0A9517C98DDD004416B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D8D0AA917C98DDD004416B6 /* main.m in Sources */,
+				5D8D0AB017C98DDD004416B6 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D8D0AB417C98DDD004416B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D8D0AC717C98DDD004416B6 /* moraClockTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5D8D0ABE17C98DDD004416B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D8D0A9817C98DDD004416B6 /* moraClock */;
+			targetProxy = 5D8D0ABD17C98DDD004416B6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5D8D0AA517C98DDD004416B6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D8D0AA617C98DDD004416B6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5D8D0AAB17C98DDD004416B6 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D8D0AAC17C98DDD004416B6 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		5D8D0AB117C98DDD004416B6 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D8D0AB217C98DDD004416B6 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		5D8D0AC217C98DDD004416B6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D8D0AC317C98DDD004416B6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5D8D0AC817C98DDD004416B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5D8D0AC917C98DDD004416B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5D8D0ACB17C98DDD004416B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "moraClock/moraClock-Prefix.pch";
+				INFOPLIST_FILE = "moraClock/moraClock-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5D8D0ACC17C98DDD004416B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "moraClock/moraClock-Prefix.pch";
+				INFOPLIST_FILE = "moraClock/moraClock-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5D8D0ACE17C98DDD004416B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/moraClock.app/Contents/MacOS/moraClock";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "moraClock/moraClock-Prefix.pch";
+				INFOPLIST_FILE = "moraClockTests/moraClockTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		5D8D0ACF17C98DDD004416B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/moraClock.app/Contents/MacOS/moraClock";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "moraClock/moraClock-Prefix.pch";
+				INFOPLIST_FILE = "moraClockTests/moraClockTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D8D0A9417C98DDD004416B6 /* Build configuration list for PBXProject "moraClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D8D0AC817C98DDD004416B6 /* Debug */,
+				5D8D0AC917C98DDD004416B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D8D0ACA17C98DDD004416B6 /* Build configuration list for PBXNativeTarget "moraClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D8D0ACB17C98DDD004416B6 /* Debug */,
+				5D8D0ACC17C98DDD004416B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5D8D0ACD17C98DDD004416B6 /* Build configuration list for PBXNativeTarget "moraClockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D8D0ACE17C98DDD004416B6 /* Debug */,
+				5D8D0ACF17C98DDD004416B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5D8D0A9117C98DDD004416B6 /* Project object */;
+}
