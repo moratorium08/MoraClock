@@ -9,6 +9,9 @@
 #import <Cocoa/Cocoa.h>
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
+{
+    IBOutlet NSTextField *timeField;
+}
 
 @property (assign) IBOutlet NSWindow *window;
 
